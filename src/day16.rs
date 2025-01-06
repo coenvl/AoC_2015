@@ -56,5 +56,5 @@ pub fn day16(input: &str) -> (String, String) {
     let aunt2 = data.iter().enumerate().find(|(_i, a)| check2(a, &filter));
     let part2 = aunt2.expect("No match found!").0 + 1;
 
-    (format!("{part1:?}"), format!("{part2}"))
+    (format!("{part1}"), format!("{part2}"))
 }
