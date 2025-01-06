@@ -18,6 +18,8 @@ mod day16;
 mod day17;
 mod day18;
 mod day19;
+mod day20;
+mod day21;
 
 use std::env;
 
@@ -43,6 +45,8 @@ const DAY_FUNCTIONS: &[DayFunction] = &[
     day17::day17,
     day18::day18,
     day19::day19,
+    day20::day20,
+    day21::day21,
 ];
 
 fn main() {
